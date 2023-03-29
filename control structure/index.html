@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+     <script type="text/javascript">
+          var num = prompt("Enter Number");
+          if (num > 0)
+          {
+               alert("Given number is Positive!!!");
+          }
+
+        var no = prompt("Enter a Number to find Odd or Even");
+          no = parseInt(no);
+          if (isNaN(no))
+          {
+               alert("Please Enter a Number");
+          }
+          else if (no == 0)
+          {
+               alert("The Number is Zero");
+          }
+          else if (no % 2)
+          {
+               alert("The Number is Odd");
+          }
+          else
+          {
+               alert("The Number is Even");
+          }
+
+          var day = prompt("Enter a number between 1 and 7");
+     switch (day)
+     {
+          case (day="1"):
+               document.write("Sunday");
+               break;
+          case (day="2"):
+               document.write("Monday");
+               break;
+          case (day="3"):
+               document.write("Tuesday");
+               break;
+          case (day="4"):
+               document.write("Wednesday");
+               break;
+          case (day="5"):
+               document.write("Thursday");
+               break;
+          case (day="6"):
+               document.write("Friday");
+               break;
+          case (day="7"):
+               document.write("Saturday");
+               break;
+          default:
+               document.write("Invalid Weekday");
+               break;
+     }
+     </script>
+
+  
+</body>
+</html>
